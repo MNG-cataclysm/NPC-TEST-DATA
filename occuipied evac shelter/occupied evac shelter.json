@@ -1,0 +1,243 @@
+[  
+  {
+    "type": "mapgen",
+    "method": "json",
+    "weight": 50,
+    "om_terrain": [ "shelter_1" ],
+    "object": {
+      "fill_ter": "t_floor",
+      "rows": [
+        "    !!!!!!!!!!!!!!!!    ",
+        "    `!!!!`!!!!`!!!!`    ",
+        "    `!!!!`!!!!`!!!!`    ",
+        "    `!!!!`!!!!`!!!!`    ",
+        "    `!!!!`!!!!`!!!!`    ",
+        "    `!!!!`!!!!`!!!!`    ",
+        "    `!!!!`!!!!`!!!!`    ",
+        "    &&&|---++---|&&&    ",
+        "       |........|       ",
+        "    |-:|......@.|       ",
+        "    |...........|:-|    ",
+        "    |.............6|    ",
+        "    |..............|    ",
+        "    :..............:    ",
+        "    |..............|    ",
+        "    |..............|    ",
+        "    |........|||...|    ",
+        "    |.-----..|*=...|    ",
+        "    :........|||...:    ",
+        "    |..........|-+-|    ",
+        "    |..........|...|    ",
+        "    |..........|>..|    ",
+        "    |..........|>..|4   ",
+        "    |----:--+-:----|    "
+      ],
+      "palettes": [ "shelter" ],
+      "place_nested": [ { "chunks": [ [ "shelter_1_nest_base", 100 ] ], "x": 0, "y": 0 } ],
+      "npcs": {
+		"@": { "class": "NPC_evac_shelter_survivor" }
+		}
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "weight": 50,
+    "om_terrain": [ "shelter_2" ],
+    "object": {
+      "fill_ter": "t_floor",
+      "rows": [
+        "    `!!!!`!!!!`!!!!`    ",
+        "    `!!!!`!!!!`!!!!`    ",
+        "    `!!!!`!!!!`!!!!`    ",
+        "    `!!!!`!!!!`!!!!`    ",
+        "    `!!!!`!!!!`!!!!`    ",
+        "    &&&&&&&&&&&&&&&&    ",
+        "           |-:-++-:-|   ",
+        "   ||------|........|   ",
+        "   |*|..............|   ",
+        "   |.=..............|   ",
+        "  |--|.............--|  ",
+        "  |..................|  ",
+        "  :..................:  ",
+        "  |..................|  ",
+        "  |.......|--|.......|  ",
+        "  |........>>.@......|  ",
+        "  |........>>........|  ",
+        "  :.......|--|.......:  ",
+        "  |..................|  ",
+        "  |..................|  ",
+        "  |--..............--|  ",
+        "   |................|4  ",
+        "   |--------|.......|   ",
+        "            |-:-+-:-|   "
+      ],
+      "palettes": [ "shelter" ],
+      "place_nested": [ { "chunks": [ [ "shelter_2_nest_base", 100 ] ], "x": 0, "y": 0 } ],
+      "npcs": {
+		"@": { "class": "NPC_evac_shelter_survivor" }
+		},
+      "computers": {
+        "6": {
+          "name": "Evac shelter computer",
+          "eocs": [ "EOC_REFUGEE_CENTER_COMPUTER" ],
+          "chat_topics": [ "COMP_REFUGEE_CENTER_MAIN" ]
+        }
+      }
+    }
+  },
+{
+    "type": "mapgen",
+    "method": "json",
+    "weight": 50,
+    "om_terrain": [ "shelter_3" ],
+    "object": {
+      "fill_ter": "t_floor",
+      "rows": [
+        "    !!!!!!!!!!!!!!!!    ",
+        "    `!!!!`!!!!`!!!!`    ",
+        "    `!!!!`!!!!`!!!!`    ",
+        "    `!!!!`!!!!`!!!!`    ",
+        "    `!!!!`!!!!`!!!!`    ",
+        "    `!!!!`!!!!`!!!!`    ",
+        "    `!!!!`!!!!`!!!!`    ",
+        "    &&&|---++---|&&&    ",
+        "       |........|       ",
+        "    |-:|........|       ",
+        "    |...........|:-|    ",
+        "    |.............6|    ",
+        "    |..............|    ",
+        "    :..............:    ",
+        "    |..............|    ",
+        "    |..............|    ",
+        "    |........|||...|    ",
+        "    |.-----..|*=...|    ",
+        "    :........|||...:    ",
+        "    |..........|-+-|    ",
+        "    |..........|...|    ",
+        "    |..........|>..|    ",
+        "    |..........|>..|4   ",
+        "    |----:--+-:----|    "
+      ],
+      "palettes": [ "shelter" ],
+      "place_nested": [ { "chunks": [ [ "shelter_1_nest_base", 100 ] ], "x": 0, "y": 0 }, { "chunks": [ [ "infested_shelter_spawn", 100 ] ], "x": 12, "y": 12 } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "weight": 50,
+    "om_terrain": [ "shelter_3_2" ],
+    "object": {
+      "fill_ter": "t_floor",
+      "rows": [
+        "    `!!!!`!!!!`!!!!`    ",
+        "    `!!!!`!!!!`!!!!`    ",
+        "    `!!!!`!!!!`!!!!`    ",
+        "    `!!!!`!!!!`!!!!`    ",
+        "    `!!!!`!!!!`!!!!`    ",
+        "    &&&&&&&&&&&&&&&&    ",
+        "           |-:-++-:-|   ",
+        "   ||------|........|   ",
+        "   |*|..............|   ",
+        "   |.=..............|   ",
+        "  |--|.............--|  ",
+        "  |..................|  ",
+        "  :..................:  ",
+        "  |..................|  ",
+        "  |.......|--|.......|  ",
+        "  |........>>........|  ",
+        "  |........>>........|  ",
+        "  :.......|--|.......:  ",
+        "  |..................|  ",
+        "  |..................|  ",
+        "  |--..............--|  ",
+        "   |................|4  ",
+        "   |--------|.......|   ",
+        "            |-:-+-:-|   "
+      ],
+      "palettes": [ "shelter" ],
+      "place_nested": [ { "chunks": [ [ "shelter_2_nest_base", 100 ] ], "x": 0, "y": 0 }, { "chunks": [ [ "infested_shelter_spawn", 100 ] ], "x": 12, "y": 12 } ],
+      "computers": {
+        "6": {
+          "name": "Evac shelter computer",
+          "eocs": [ "EOC_REFUGEE_CENTER_COMPUTER" ],
+          "chat_topics": [ "COMP_REFUGEE_CENTER_MAIN" ]
+        }
+      }
+    }
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "shelter_3",
+    "name": "evac shelter",
+    "sym": "+",
+    "color": "white",
+    "see_cost": 5,
+    "flags": [ "RISK_HIGH" ]
+  },    
+  {
+    "type": "overmap_terrain",
+    "id": "shelter_3_2",
+    "name": "evac shelter",
+    "sym": "+",
+    "color": "white",
+    "see_cost": 5,
+    "flags": [ "RISK_HIGH" ]
+  },  
+  {
+    "type": "overmap_special",
+    "id": "Evac Shelter Infested",
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "shelter_3_north" },
+      { "point": [ 0, 0, -1 ], "overmap": "shelter_under_north" },
+      { "point": [ 0, 0, 1 ], "overmap": "shelter_roof_1_north" }
+    ],
+    "connections": [ { "point": [ 0, -1, 0 ], "terrain": "road", "connection": "local_road", "from": [ 0, 0, 0 ] } ],
+    "locations": [ "wilderness" ],
+    "city_distance": [ 3, 10 ],
+    "city_sizes": [ 4, -1 ],
+    "occurrences": [ 0, 1 ],
+    "flags": [ "CLASSIC", "URBAN" ]
+  },  
+  {
+    "type": "overmap_special",
+    "id": "Evac Shelter Infested 2",
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "shelter_3_2_north" },
+      { "point": [ 0, 0, -1 ], "overmap": "shelter_under_north" },
+      { "point": [ 0, 0, 1 ], "overmap": "shelter_roof_2_north" }
+    ],
+    "connections": [ { "point": [ 0, -1, 0 ], "terrain": "road", "connection": "local_road", "from": [ 0, 0, 0 ] } ],
+    "locations": [ "wilderness" ],
+    "city_distance": [ 3, 10 ],
+    "city_sizes": [ 4, -1 ],
+    "occurrences": [ 0, 1 ],
+    "flags": [ "CLASSIC", "URBAN" ]
+  },
+  {
+    "type": "scenario",
+    "id": "infested_shelter_start",
+    "name": "Challenge - Compromized Shelter",
+    "points": -2,
+    "description": "You have survived the initial wave of panic, and have achieved (relative) safety in one of the many government evac shelters. However, the people you came with began to zombify, and are out for your flesh. You need to get out of here.",
+    "allowed_locs": [
+      "sloc_shelter_infest_a",
+      "sloc_shelter_infest_b"
+    ],
+    "start_name": "In an Infested Shelter",
+    "flags": [ "CHALLENGE", "LONE_START" ]
+  },
+{
+    "type": "start_location",
+    "id": "sloc_shelter_infest_a",
+    "name": "Infested Shelter - Open Floorplan",
+    "terrain": [ "shelter_3" ]
+  },
+  {
+    "type": "start_location",
+    "id": "sloc_shelter_infest_b",
+    "name": "Infested Shelter - Compartmentalized",
+    "terrain": [ "shelter_3_2" ]
+  }    
+]

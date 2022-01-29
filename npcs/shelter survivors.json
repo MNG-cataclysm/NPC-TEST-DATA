@@ -1,0 +1,13 @@
+[
+{
+    "type": "npc",
+    "id": "NPC_evac_shelter_survivor",
+    "class": "NC_SCAVENGER",
+    "name_suffix": "scavenger",
+    "attitude": 0,
+    "mission": 7,
+    "chat": "TALK_NPC_EVAC_SURVIVOR",
+    "faction": "no_faction",
+    "mission_offered": "MISSION_LEARN_ABOUT_CATTAIL_JELLY"
+  }
+]

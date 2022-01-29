@@ -1,0 +1,11 @@
+[
+{
+    "type": "MOD_INFO",
+    "id": "npc_test_data",
+    "name": "NPC Test Data",
+    "description": "Test data for NPC locations.",
+    "category": "content",
+    "dependencies": [ "dda" ],
+    "version": "0.1"
+  }
+]
