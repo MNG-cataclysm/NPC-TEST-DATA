@@ -45,7 +45,7 @@
 	   "update_mapgen": { "place_monster": [ { "monster": "mon_ant", "pack_size": [ 2, 2 ], "x": 8, "y": 8, "target": true } ] }
     },
     "end": {
-           "effect": { "npc_add_var": "ant_meat_tradeable", "type": "dialogue", "context": "trade", "value": "yes" } }
+           "effect": { "npc_add_var": "ant_meat_tradeable", "type": "dialogue", "context": "trade", "value": "yes" } 
     },
 	"has_generic_rewards": true,
 	"dialogue": {
