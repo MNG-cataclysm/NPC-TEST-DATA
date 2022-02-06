@@ -1,0 +1,363 @@
+
+
+-----------------------------------------
+21:34:11.442 : Starting log.
+21:34:11.442 INFO : Cataclysm DDA version 582b193
+21:34:11.443 INFO : [main] C locale set to C
+21:34:11.443 INFO : [main] C++ locale set to C
+21:34:11.443 INFO : SDL version used during compile is 2.0.14
+21:34:11.443 INFO : SDL version used during linking and in runtime is 2.0.14
+21:34:11.785 INFO : Number of render drivers on your system: 5
+21:34:11.785 INFO : Render driver: 0/direct3d
+21:34:11.785 INFO : Render driver: 1/direct3d11
+21:34:11.785 INFO : Render driver: 2/opengl
+21:34:11.785 INFO : Render driver: 3/opengles2
+21:34:11.785 INFO : Render driver: 4/software
+21:34:11.855 INFO : [options] C locale set to C
+21:34:11.855 INFO : [options] C++ locale set to C
+21:34:11.855 INFO : Setting language to: 'en'
+21:34:11.855 INFO : [i18n] Scanning core translations from lang/mo/
+21:34:11.855 INFO : [i18n] Scanning mod translations from ./mods/
+21:34:11.870 WARNING : opendir [./mods/] failed with "No such process".
+21:34:13.016 INFO : Active renderer: 1/direct3d11
+21:34:13.251 INFO : USE_COLOR_MODULATED_TEXTURES is set to 0
+21:34:13.908 INFO : Setting language to: 'en'
+21:34:16.451 WARNING : opendir [./mods/] failed with "No such process".
+21:35:45.407 ERROR : (error message will follow backtrace)
+  #0
+    (dbghelp: @0x2abeb0[cataclysm-tiles.exe+0x27beb0]), 
+    (libbacktrace: debug_write_backtrace(std::ostream&)+0xe2@0x67beb0),
+    (libbacktrace: 0x67beb0    [unknown src]:0    [unknown func]),
+  #1
+    (dbghelp: @0x2ad2f4[cataclysm-tiles.exe+0x27d2f4]), 
+    (libbacktrace: DebugLog(DebugLevel, DebugClass)+0x2de@0x67d2f4),
+    (libbacktrace: 0x67d2f4    [unknown src]:0    [unknown func]),
+  #2
+    (dbghelp: @0x2ae71a[cataclysm-tiles.exe+0x27e71a]), 
+    (libbacktrace: realDebugmsg(char const*, char const*, char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)+0x1dd@0x67e71a),
+    (libbacktrace: 0x67e71a    [unknown src]:0    [unknown func]),
+  #3
+    (dbghelp: @0x1096bf9[cataclysm-tiles.exe+0x1066bf9]), 
+    (libbacktrace: void realDebugmsg<char const*>(char const*, char const*, char const*, char const*, char const*&&)+0xfd@0x1466bf9),
+    (libbacktrace: 0x1466bf9    [unknown src]:0    [unknown func]),
+  #4
+    (dbghelp: @0x6a8d63[cataclysm-tiles.exe+0x678d63]), 
+    (libbacktrace: main_menu::load_character_tab(bool)+0xedb@0xa78d63),
+    (libbacktrace: 0xa78d63    [unknown src]:0    [unknown func]),
+  #5
+    (dbghelp: @0x6ada6c[cataclysm-tiles.exe+0x67da6c]), 
+    (libbacktrace: main_menu::opening_screen()+0xdce@0xa7da6c),
+    (libbacktrace: 0xa7da6c    [unknown src]:0    [unknown func]),
+  #6
+    (dbghelp: @0x185f52d[cataclysm-tiles.exe+0x182f52d]), 
+    (libbacktrace: main+0x19d0@0x1c2f52d),
+    (libbacktrace: 0x1c2f52d    [unknown src]:0    [unknown func]),
+  #7
+    (dbghelp: @0x31396[cataclysm-tiles.exe+0x1396]), 
+    (libbacktrace: __tmainCRTStartup+0x226@0x401396),
+    (libbacktrace: 0x401396    /opt/mxe/tmp-gcc-i686-w64-mingw32.static.gcc11/gcc-11.2.0.build_/mingw-w64-v9.0.0/mingw-w64-crt/crt/crtexe.c:323    __tmainCRTStartup),
+  #8
+    (dbghelp: BaseThreadInitThunk+0x19@0x7668fa29[KERNEL32.DLL+0x1fa29]), 
+    (backtrace_syminfo failed: errno = -1, msg = no symbol table in PE/COFF executable),
+    (backtrace_pcinfo failed: errno = -1, msg = no debug info in PE/COFF executable),
+  #9
+    (dbghelp: RtlGetAppContainerNamedObjectPath+0x11e@0x77177a9e[ntdll.dll+0x67a9e]), 
+    (backtrace_syminfo failed: errno = -1, msg = no symbol table in PE/COFF executable),
+    (backtrace_pcinfo failed: errno = -1, msg = no debug info in PE/COFF executable),
+  #10
+    (dbghelp: RtlGetAppContainerNamedObjectPath+0xee@0x77177a6e[ntdll.dll+0x67a6e]), 
+    (backtrace_syminfo failed: errno = -1, msg = no symbol table in PE/COFF executable),
+    (backtrace_pcinfo failed: errno = -1, msg = no debug info in PE/COFF executable),
+  #11
+    (dbghelp: @0), 
+    (unable to get module base address),
+Backtrace emission took 0 seconds.
+(continued from above) ERROR : src/main_menu.cpp:1069 [bool main_menu::load_character_tab(bool)] Error: missing mandatory member "describe"
+21:36:38.068 ERROR : src/main_menu.cpp:1069 [bool main_menu::load_character_tab(bool)] Error: missing mandatory member "describe"
+21:36:51.060 : Log shutdown.
+-----------------------------------------
+
+
+
+-----------------------------------------
+21:38:08.204 : Starting log.
+21:38:08.205 INFO : Cataclysm DDA version 582b193
+21:38:08.207 INFO : [main] C locale set to C
+21:38:08.207 INFO : [main] C++ locale set to C
+21:38:08.207 INFO : SDL version used during compile is 2.0.14
+21:38:08.207 INFO : SDL version used during linking and in runtime is 2.0.14
+21:38:08.266 INFO : Number of render drivers on your system: 5
+21:38:08.266 INFO : Render driver: 0/direct3d
+21:38:08.266 INFO : Render driver: 1/direct3d11
+21:38:08.266 INFO : Render driver: 2/opengl
+21:38:08.266 INFO : Render driver: 3/opengles2
+21:38:08.266 INFO : Render driver: 4/software
+21:38:08.306 INFO : [options] C locale set to C
+21:38:08.306 INFO : [options] C++ locale set to C
+21:38:08.306 INFO : Setting language to: 'en'
+21:38:08.306 INFO : [i18n] Scanning core translations from lang/mo/
+21:38:08.306 INFO : [i18n] Scanning mod translations from ./mods/
+21:38:08.315 WARNING : opendir [./mods/] failed with "No such process".
+21:38:09.190 INFO : Active renderer: 1/direct3d11
+21:38:09.368 INFO : USE_COLOR_MODULATED_TEXTURES is set to 0
+21:38:09.919 INFO : Setting language to: 'en'
+21:38:11.084 WARNING : opendir [./mods/] failed with "No such process".
+21:39:24.754 ERROR : (error message will follow backtrace)
+  #0
+    (dbghelp: @0x2abeb0[cataclysm-tiles.exe+0x27beb0]), 
+    (libbacktrace: debug_write_backtrace(std::ostream&)+0xe2@0x67beb0),
+    (libbacktrace: 0x67beb0    [unknown src]:0    [unknown func]),
+  #1
+    (dbghelp: @0x2ad2f4[cataclysm-tiles.exe+0x27d2f4]), 
+    (libbacktrace: DebugLog(DebugLevel, DebugClass)+0x2de@0x67d2f4),
+    (libbacktrace: 0x67d2f4    [unknown src]:0    [unknown func]),
+  #2
+    (dbghelp: @0x2ae71a[cataclysm-tiles.exe+0x27e71a]), 
+    (libbacktrace: realDebugmsg(char const*, char const*, char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)+0x1dd@0x67e71a),
+    (libbacktrace: 0x67e71a    [unknown src]:0    [unknown func]),
+  #3
+    (dbghelp: @0x1096bf9[cataclysm-tiles.exe+0x1066bf9]), 
+    (libbacktrace: void realDebugmsg<char const*>(char const*, char const*, char const*, char const*, char const*&&)+0xfd@0x1466bf9),
+    (libbacktrace: 0x1466bf9    [unknown src]:0    [unknown func]),
+  #4
+    (dbghelp: @0x6aa95f[cataclysm-tiles.exe+0x67a95f]), 
+    (libbacktrace: main_menu::new_character_tab()+0x12a7@0xa7a95f),
+    (libbacktrace: 0xa7a95f    [unknown src]:0    [unknown func]),
+  #5
+    (dbghelp: @0x6ada4e[cataclysm-tiles.exe+0x67da4e]), 
+    (libbacktrace: main_menu::opening_screen()+0xdb0@0xa7da4e),
+    (libbacktrace: 0xa7da4e    [unknown src]:0    [unknown func]),
+  #6
+    (dbghelp: @0x185f52d[cataclysm-tiles.exe+0x182f52d]), 
+    (libbacktrace: main+0x19d0@0x1c2f52d),
+    (libbacktrace: 0x1c2f52d    [unknown src]:0    [unknown func]),
+  #7
+    (dbghelp: @0x31396[cataclysm-tiles.exe+0x1396]), 
+    (libbacktrace: __tmainCRTStartup+0x226@0x401396),
+    (libbacktrace: 0x401396    /opt/mxe/tmp-gcc-i686-w64-mingw32.static.gcc11/gcc-11.2.0.build_/mingw-w64-v9.0.0/mingw-w64-crt/crt/crtexe.c:323    __tmainCRTStartup),
+  #8
+    (dbghelp: BaseThreadInitThunk+0x19@0x7668fa29[KERNEL32.DLL+0x1fa29]), 
+    (backtrace_syminfo failed: errno = -1, msg = no symbol table in PE/COFF executable),
+    (backtrace_pcinfo failed: errno = -1, msg = no debug info in PE/COFF executable),
+  #9
+    (dbghelp: RtlGetAppContainerNamedObjectPath+0x11e@0x77177a9e[ntdll.dll+0x67a9e]), 
+    (backtrace_syminfo failed: errno = -1, msg = no symbol table in PE/COFF executable),
+    (backtrace_pcinfo failed: errno = -1, msg = no debug info in PE/COFF executable),
+  #10
+    (dbghelp: RtlGetAppContainerNamedObjectPath+0xee@0x77177a6e[ntdll.dll+0x67a6e]), 
+    (backtrace_syminfo failed: errno = -1, msg = no symbol table in PE/COFF executable),
+    (backtrace_pcinfo failed: errno = -1, msg = no debug info in PE/COFF executable),
+  #11
+    (dbghelp: @0), 
+    (unable to get module base address),
+Backtrace emission took 0 seconds.
+(continued from above) ERROR : src/main_menu.cpp:870 [bool main_menu::new_character_tab()] Error: missing mandatory member "describe"
+21:40:18.317 ERROR : src/main_menu.cpp:1069 [bool main_menu::load_character_tab(bool)] Error: missing mandatory member "describe"
+21:40:22.043 : Log shutdown.
+-----------------------------------------
+
+
+
+-----------------------------------------
+21:42:06.441 : Starting log.
+21:42:06.444 INFO : Cataclysm DDA version 582b193
+21:42:06.444 INFO : [main] C locale set to C
+21:42:06.444 INFO : [main] C++ locale set to C
+21:42:06.444 INFO : SDL version used during compile is 2.0.14
+21:42:06.444 INFO : SDL version used during linking and in runtime is 2.0.14
+21:42:06.525 INFO : Number of render drivers on your system: 5
+21:42:06.525 INFO : Render driver: 0/direct3d
+21:42:06.525 INFO : Render driver: 1/direct3d11
+21:42:06.525 INFO : Render driver: 2/opengl
+21:42:06.525 INFO : Render driver: 3/opengles2
+21:42:06.525 INFO : Render driver: 4/software
+21:42:06.574 INFO : [options] C locale set to C
+21:42:06.574 INFO : [options] C++ locale set to C
+21:42:06.574 INFO : Setting language to: 'en'
+21:42:06.574 INFO : [i18n] Scanning core translations from lang/mo/
+21:42:06.574 INFO : [i18n] Scanning mod translations from ./mods/
+21:42:06.586 WARNING : opendir [./mods/] failed with "No such process".
+21:42:07.558 INFO : Active renderer: 1/direct3d11
+21:42:07.740 INFO : USE_COLOR_MODULATED_TEXTURES is set to 0
+21:42:08.244 INFO : Setting language to: 'en'
+21:42:09.361 WARNING : opendir [./mods/] failed with "No such process".
+21:43:00.468 WARNING : opendir [./save/Test World 2/mods] failed with "No such process".
+21:44:32.567 : Log shutdown.
+-----------------------------------------
+
+
+
+-----------------------------------------
+11:31:14.713 : Starting log.
+11:31:14.719 INFO : Cataclysm DDA version 582b193
+11:31:14.720 INFO : [main] C locale set to C
+11:31:14.720 INFO : [main] C++ locale set to C
+11:31:14.720 INFO : SDL version used during compile is 2.0.14
+11:31:14.720 INFO : SDL version used during linking and in runtime is 2.0.14
+11:31:14.958 INFO : Number of render drivers on your system: 5
+11:31:14.958 INFO : Render driver: 0/direct3d
+11:31:14.958 INFO : Render driver: 1/direct3d11
+11:31:14.958 INFO : Render driver: 2/opengl
+11:31:14.958 INFO : Render driver: 3/opengles2
+11:31:14.958 INFO : Render driver: 4/software
+11:31:15.025 INFO : [options] C locale set to C
+11:31:15.025 INFO : [options] C++ locale set to C
+11:31:15.025 INFO : Setting language to: 'en'
+11:31:15.025 INFO : [i18n] Scanning core translations from lang/mo/
+11:31:15.025 INFO : [i18n] Scanning mod translations from ./mods/
+11:31:15.040 WARNING : opendir [./mods/] failed with "No such process".
+11:31:16.265 INFO : Active renderer: 1/direct3d11
+11:31:16.592 INFO : USE_COLOR_MODULATED_TEXTURES is set to 0
+11:31:17.248 INFO : Setting language to: 'en'
+11:31:19.228 WARNING : opendir [./mods/] failed with "No such process".
+11:33:08.567 ERROR : (error message will follow backtrace)
+  #0
+    (dbghelp: @0x3abeb0[cataclysm-tiles.exe+0x27beb0]), 
+    (libbacktrace: debug_write_backtrace(std::ostream&)+0xe2@0x67beb0),
+    (libbacktrace: 0x67beb0    [unknown src]:0    [unknown func]),
+  #1
+    (dbghelp: @0x3ad2f4[cataclysm-tiles.exe+0x27d2f4]), 
+    (libbacktrace: DebugLog(DebugLevel, DebugClass)+0x2de@0x67d2f4),
+    (libbacktrace: 0x67d2f4    [unknown src]:0    [unknown func]),
+  #2
+    (dbghelp: @0x3ae71a[cataclysm-tiles.exe+0x27e71a]), 
+    (libbacktrace: realDebugmsg(char const*, char const*, char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)+0x1dd@0x67e71a),
+    (libbacktrace: 0x67e71a    [unknown src]:0    [unknown func]),
+  #3
+    (dbghelp: @0x1196bf9[cataclysm-tiles.exe+0x1066bf9]), 
+    (libbacktrace: void realDebugmsg<char const*>(char const*, char const*, char const*, char const*, char const*&&)+0xfd@0x1466bf9),
+    (libbacktrace: 0x1466bf9    [unknown src]:0    [unknown func]),
+  #4
+    (dbghelp: @0x7aa22a[cataclysm-tiles.exe+0x67a22a]), 
+    (libbacktrace: main_menu::new_character_tab()+0xb72@0xa7a22a),
+    (libbacktrace: 0xa7a22a    [unknown src]:0    [unknown func]),
+  #5
+    (dbghelp: @0x7ada4e[cataclysm-tiles.exe+0x67da4e]), 
+    (libbacktrace: main_menu::opening_screen()+0xdb0@0xa7da4e),
+    (libbacktrace: 0xa7da4e    [unknown src]:0    [unknown func]),
+  #6
+    (dbghelp: @0x195f52d[cataclysm-tiles.exe+0x182f52d]), 
+    (libbacktrace: main+0x19d0@0x1c2f52d),
+    (libbacktrace: 0x1c2f52d    [unknown src]:0    [unknown func]),
+  #7
+    (dbghelp: @0x131396[cataclysm-tiles.exe+0x1396]), 
+    (libbacktrace: __tmainCRTStartup+0x226@0x401396),
+    (libbacktrace: 0x401396    /opt/mxe/tmp-gcc-i686-w64-mingw32.static.gcc11/gcc-11.2.0.build_/mingw-w64-v9.0.0/mingw-w64-crt/crt/crtexe.c:323    __tmainCRTStartup),
+  #8
+    (dbghelp: BaseThreadInitThunk+0x19@0x7668fa29[KERNEL32.DLL+0x1fa29]), 
+    (backtrace_syminfo failed: errno = -1, msg = no symbol table in PE/COFF executable),
+    (backtrace_pcinfo failed: errno = -1, msg = no debug info in PE/COFF executable),
+  #9
+    (dbghelp: RtlGetAppContainerNamedObjectPath+0x11e@0x77177a9e[ntdll.dll+0x67a9e]), 
+    (backtrace_syminfo failed: errno = -1, msg = no symbol table in PE/COFF executable),
+    (backtrace_pcinfo failed: errno = -1, msg = no debug info in PE/COFF executable),
+  #10
+    (dbghelp: RtlGetAppContainerNamedObjectPath+0xee@0x77177a6e[ntdll.dll+0x67a6e]), 
+    (backtrace_syminfo failed: errno = -1, msg = no symbol table in PE/COFF executable),
+    (backtrace_pcinfo failed: errno = -1, msg = no debug info in PE/COFF executable),
+Backtrace emission took 0 seconds.
+(continued from above) ERROR : src/main_menu.cpp:783 [bool main_menu::new_character_tab()] Error: missing mandatory member "describe"
+11:33:52.524 : Log shutdown.
+-----------------------------------------
+
+
+
+-----------------------------------------
+11:39:37.740 : Starting log.
+11:39:37.743 INFO : Cataclysm DDA version 582b193
+11:39:37.744 INFO : [main] C locale set to C
+11:39:37.744 INFO : [main] C++ locale set to C
+11:39:37.744 INFO : SDL version used during compile is 2.0.14
+11:39:37.744 INFO : SDL version used during linking and in runtime is 2.0.14
+11:39:37.806 INFO : Number of render drivers on your system: 5
+11:39:37.806 INFO : Render driver: 0/direct3d
+11:39:37.806 INFO : Render driver: 1/direct3d11
+11:39:37.806 INFO : Render driver: 2/opengl
+11:39:37.806 INFO : Render driver: 3/opengles2
+11:39:37.806 INFO : Render driver: 4/software
+11:39:37.853 INFO : [options] C locale set to C
+11:39:37.853 INFO : [options] C++ locale set to C
+11:39:37.853 INFO : Setting language to: 'en'
+11:39:37.853 INFO : [i18n] Scanning core translations from lang/mo/
+11:39:37.853 INFO : [i18n] Scanning mod translations from ./mods/
+11:39:37.860 WARNING : opendir [./mods/] failed with "No such process".
+11:39:38.798 INFO : Active renderer: 1/direct3d11
+11:39:39.037 INFO : USE_COLOR_MODULATED_TEXTURES is set to 0
+11:39:39.609 INFO : Setting language to: 'en'
+11:39:40.809 WARNING : opendir [./mods/] failed with "No such process".
+11:40:45.557 ERROR : (error message will follow backtrace)
+  #0
+    (dbghelp: @0x3abeb0[cataclysm-tiles.exe+0x27beb0]), 
+    (libbacktrace: debug_write_backtrace(std::ostream&)+0xe2@0x67beb0),
+    (libbacktrace: 0x67beb0    [unknown src]:0    [unknown func]),
+  #1
+    (dbghelp: @0x3ad2f4[cataclysm-tiles.exe+0x27d2f4]), 
+    (libbacktrace: DebugLog(DebugLevel, DebugClass)+0x2de@0x67d2f4),
+    (libbacktrace: 0x67d2f4    [unknown src]:0    [unknown func]),
+  #2
+    (dbghelp: @0x3ae71a[cataclysm-tiles.exe+0x27e71a]), 
+    (libbacktrace: realDebugmsg(char const*, char const*, char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)+0x1dd@0x67e71a),
+    (libbacktrace: 0x67e71a    [unknown src]:0    [unknown func]),
+  #3
+    (dbghelp: @0x1196bf9[cataclysm-tiles.exe+0x1066bf9]), 
+    (libbacktrace: void realDebugmsg<char const*>(char const*, char const*, char const*, char const*, char const*&&)+0xfd@0x1466bf9),
+    (libbacktrace: 0x1466bf9    [unknown src]:0    [unknown func]),
+  #4
+    (dbghelp: @0x7aa22a[cataclysm-tiles.exe+0x67a22a]), 
+    (libbacktrace: main_menu::new_character_tab()+0xb72@0xa7a22a),
+    (libbacktrace: 0xa7a22a    [unknown src]:0    [unknown func]),
+  #5
+    (dbghelp: @0x7ada4e[cataclysm-tiles.exe+0x67da4e]), 
+    (libbacktrace: main_menu::opening_screen()+0xdb0@0xa7da4e),
+    (libbacktrace: 0xa7da4e    [unknown src]:0    [unknown func]),
+  #6
+    (dbghelp: @0x195f52d[cataclysm-tiles.exe+0x182f52d]), 
+    (libbacktrace: main+0x19d0@0x1c2f52d),
+    (libbacktrace: 0x1c2f52d    [unknown src]:0    [unknown func]),
+  #7
+    (dbghelp: @0x131396[cataclysm-tiles.exe+0x1396]), 
+    (libbacktrace: __tmainCRTStartup+0x226@0x401396),
+    (libbacktrace: 0x401396    /opt/mxe/tmp-gcc-i686-w64-mingw32.static.gcc11/gcc-11.2.0.build_/mingw-w64-v9.0.0/mingw-w64-crt/crt/crtexe.c:323    __tmainCRTStartup),
+  #8
+    (dbghelp: BaseThreadInitThunk+0x19@0x7668fa29[KERNEL32.DLL+0x1fa29]), 
+    (backtrace_syminfo failed: errno = -1, msg = no symbol table in PE/COFF executable),
+    (backtrace_pcinfo failed: errno = -1, msg = no debug info in PE/COFF executable),
+  #9
+    (dbghelp: RtlGetAppContainerNamedObjectPath+0x11e@0x77177a9e[ntdll.dll+0x67a9e]), 
+    (backtrace_syminfo failed: errno = -1, msg = no symbol table in PE/COFF executable),
+    (backtrace_pcinfo failed: errno = -1, msg = no debug info in PE/COFF executable),
+  #10
+    (dbghelp: RtlGetAppContainerNamedObjectPath+0xee@0x77177a6e[ntdll.dll+0x67a6e]), 
+    (backtrace_syminfo failed: errno = -1, msg = no symbol table in PE/COFF executable),
+    (backtrace_pcinfo failed: errno = -1, msg = no debug info in PE/COFF executable),
+Backtrace emission took 0 seconds.
+(continued from above) ERROR : src/main_menu.cpp:783 [bool main_menu::new_character_tab()] Error: missing mandatory member "describe"
+11:41:58.305 WARNING : opendir [./save/Test World 2/mods] failed with "No such process".
+11:48:02.927 : Log shutdown.
+-----------------------------------------
+
+
+
+-----------------------------------------
+21:23:48.794 : Starting log.
+21:23:48.798 INFO : Cataclysm DDA version 582b193
+21:23:48.799 INFO : [main] C locale set to C
+21:23:48.799 INFO : [main] C++ locale set to C
+21:23:48.799 INFO : SDL version used during compile is 2.0.14
+21:23:48.799 INFO : SDL version used during linking and in runtime is 2.0.14
+21:23:49.191 INFO : Number of render drivers on your system: 5
+21:23:49.191 INFO : Render driver: 0/direct3d
+21:23:49.192 INFO : Render driver: 1/direct3d11
+21:23:49.192 INFO : Render driver: 2/opengl
+21:23:49.192 INFO : Render driver: 3/opengles2
+21:23:49.192 INFO : Render driver: 4/software
+21:23:49.278 INFO : [options] C locale set to C
+21:23:49.278 INFO : [options] C++ locale set to C
+21:23:49.278 INFO : Setting language to: 'en'
+21:23:49.278 INFO : [i18n] Scanning core translations from lang/mo/
+21:23:49.278 INFO : [i18n] Scanning mod translations from ./mods/
+21:23:49.297 WARNING : opendir [./mods/] failed with "No such process".
+21:23:50.637 INFO : Active renderer: 1/direct3d11
+21:23:50.880 INFO : USE_COLOR_MODULATED_TEXTURES is set to 0
+21:23:51.795 INFO : Setting language to: 'en'
+21:23:54.139 WARNING : opendir [./mods/] failed with "No such process".
