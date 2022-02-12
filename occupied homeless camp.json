@@ -194,6 +194,6 @@
     },
     "om_terrain": "homelesscamp",
     "type": "mapgen",
-    "weight": 1000
+    "weight": 20
   }
 ]

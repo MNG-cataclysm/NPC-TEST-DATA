@@ -1,0 +1,12 @@
+[
+{
+    "type": "npc",
+    "id": "NPC_mansion_guard",
+    "class": "NC_SCAVENGER",
+    "name_suffix": "scavenger",
+    "attitude": 0,
+    "mission": 7,
+    "chat": "TALK_NPC_EVAC_SURVIVOR",
+    "faction": "wasteland_scavengers"
+  } 
+]

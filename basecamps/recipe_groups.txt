@@ -1,0 +1,311 @@
+[
+ {
+    "type": "recipe_group",
+    "id": "all_faction_base_types",
+    "building_type": "NONE",
+    "recipes": [
+      {
+        "id": "faction_base_modular_hub_field_0",
+        "description": "Modular Field Camp version 1 (offhand areas)",
+        "om_terrains": [ 
+                        "pedestrian_11_5_0",  
+                        "pedestrian_11_6_0", 
+                        "pedestrian_12_5_0", 
+                        "pedestrian_12_6_0", 
+                        "pedestrian_13_5_0", 
+                        "pedestrian_13_6_0", 
+                        "pedestrian_11_7_0",  
+                        "pedestrian_11_8_0", 
+                        "pedestrian_12_7_0", 
+                        "pedestrian_12_8_0", 
+                        "pedestrian_13_7_0", 
+                        "pedestrian_13_8_0",                         
+                        "pedestrian_12_9_0", 
+                        "pedestrian_13_9_0",
+                        "pedestrian_14_5_0", 
+                        "pedestrian_14_6_0",
+
+                        "railroad_station_0_1", 
+                        "railroad_station_1_1", 
+                        "railroad_station_2_1",
+                        "railroad_station_0_2", 
+                        "railroad_station_1_2", 
+                        "railroad_station_2_2",
+                        "railroad_station_0_3", 
+                        "railroad_station_1_3", 
+                        "railroad_station_2_3",
+                        "railroad_station_0_4", 
+                        "railroad_station_1_4", 
+                        "railroad_station_2_4",
+
+                        "island_field" 
+                       ]
+      },
+      {
+        "id": "faction_base_modular_hub_field_version_2_0",
+        "description": "Modular Field Camp version 3 II (no trenches, more beds, courtyards, expansions not dependent on beds)",
+        "om_terrains": [ 
+                        "pedestrian_11_5_0",  
+                        "pedestrian_11_6_0", 
+                        "pedestrian_12_5_0", 
+                        "pedestrian_12_6_0", 
+                        "pedestrian_13_5_0", 
+                        "pedestrian_13_6_0", 
+                        "pedestrian_11_7_0",  
+                        "pedestrian_11_8_0", 
+                        "pedestrian_12_7_0", 
+                        "pedestrian_12_8_0", 
+                        "pedestrian_13_7_0", 
+                        "pedestrian_13_8_0",                         
+                        "pedestrian_12_9_0", 
+                        "pedestrian_13_9_0",
+                        "pedestrian_14_5_0", 
+                        "pedestrian_14_6_0",
+
+                        "railroad_station_0_1", 
+                        "railroad_station_1_1", 
+                        "railroad_station_2_1",
+                        "railroad_station_0_2", 
+                        "railroad_station_1_2", 
+                        "railroad_station_2_2",
+                        "railroad_station_0_3", 
+                        "railroad_station_1_3", 
+                        "railroad_station_2_3",
+                        "railroad_station_0_4", 
+                        "railroad_station_1_4", 
+                        "railroad_station_2_4",
+
+                        "island_field" 
+                       ]
+      }
+    ]
+  },
+{
+    "type": "recipe_group",
+    "id": "all_faction_base_expansions",
+    "building_type": "NONE",
+    "recipes": [
+      {
+        "id": "faction_base_canteen_0",
+        "description": "Canteen version 1.  Provides cooking recipes, stoves, well, cellar",
+        "om_terrains": [
+                        "pedestrian_11_5_0",  
+                        "pedestrian_11_6_0", 
+                        "pedestrian_12_5_0", 
+                        "pedestrian_12_6_0", 
+                        "pedestrian_13_5_0", 
+                        "pedestrian_13_6_0", 
+                        "pedestrian_11_7_0",  
+                        "pedestrian_11_8_0", 
+                        "pedestrian_12_7_0", 
+                        "pedestrian_12_8_0", 
+                        "pedestrian_13_7_0", 
+                        "pedestrian_13_8_0",                         
+                        "pedestrian_12_9_0", 
+                        "pedestrian_13_9_0",
+                        "pedestrian_14_5_0", 
+                        "pedestrian_14_6_0",
+
+                        "railroad_station_0_1", 
+                        "railroad_station_1_1", 
+                        "railroad_station_2_1",
+                        "railroad_station_0_2", 
+                        "railroad_station_1_2", 
+                        "railroad_station_2_2",
+                        "railroad_station_0_3", 
+                        "railroad_station_1_3", 
+                        "railroad_station_2_3",
+                        "railroad_station_0_4", 
+                        "railroad_station_1_4", 
+                        "railroad_station_2_4",
+
+                        "island_field"  
+                      ]
+      },
+      {
+        "id": "faction_base_canteen_2_0",
+        "description": "Canteen version 2.  Version 1 plus still, windmill, and more planters",
+        "om_terrains": [ 
+			"pedestrian_11_5_0",  
+                        "pedestrian_11_6_0", 
+                        "pedestrian_12_5_0", 
+                        "pedestrian_12_6_0", 
+                        "pedestrian_13_5_0", 
+                        "pedestrian_13_6_0", 
+                        "pedestrian_11_7_0",  
+                        "pedestrian_11_8_0", 
+                        "pedestrian_12_7_0", 
+                        "pedestrian_12_8_0", 
+                        "pedestrian_13_7_0", 
+                        "pedestrian_13_8_0",                         
+                        "pedestrian_12_9_0", 
+                        "pedestrian_13_9_0",
+                        "pedestrian_14_5_0", 
+                        "pedestrian_14_6_0",
+
+                        "railroad_station_0_1", 
+                        "railroad_station_1_1", 
+                        "railroad_station_2_1",
+                        "railroad_station_0_2", 
+                        "railroad_station_1_2", 
+                        "railroad_station_2_2",
+                        "railroad_station_0_3", 
+                        "railroad_station_1_3", 
+                        "railroad_station_2_3",
+                        "railroad_station_0_4", 
+                        "railroad_station_1_4", 
+                        "railroad_station_2_4",
+
+                        "island_field"  
+		       ]
+      },
+      {
+        "id": "faction_base_farm_0",
+        "description": "Farm version 1.  Shed, plots, some farming recipes",
+        "om_terrains": [ 
+			"pedestrian_11_5_0",  
+                        "pedestrian_11_6_0", 
+                        "pedestrian_12_5_0", 
+                        "pedestrian_12_6_0", 
+                        "pedestrian_13_5_0", 
+                        "pedestrian_13_6_0", 
+                        "pedestrian_11_7_0",  
+                        "pedestrian_11_8_0", 
+                        "pedestrian_12_7_0", 
+                        "pedestrian_12_8_0", 
+                        "pedestrian_13_7_0", 
+                        "pedestrian_13_8_0",                         
+                        "pedestrian_12_9_0", 
+                        "pedestrian_13_9_0",
+                        "pedestrian_14_5_0", 
+                        "pedestrian_14_6_0",
+
+                        "railroad_station_0_1", 
+                        "railroad_station_1_1", 
+                        "railroad_station_2_1",
+                        "railroad_station_0_2", 
+                        "railroad_station_1_2", 
+                        "railroad_station_2_2",
+                        "railroad_station_0_3", 
+                        "railroad_station_1_3", 
+                        "railroad_station_2_3",
+                        "railroad_station_0_4", 
+                        "railroad_station_1_4", 
+                        "railroad_station_2_4",
+
+                        "island_field" 
+                      ]
+      },
+      {
+        "id": "faction_base_farm_2_0",
+        "description": "Farm version 2.  Just plots, fence (optional gate for tractor), no recipes",
+        "om_terrains": [ "field" ]
+      },
+      {
+        "id": "faction_base_garage_0",
+        "description": "Garage version 1.  Fits reasonably sized vehicles, free space around it",
+        "om_terrains": [ "field" ]
+      },
+      {
+        "id": "faction_base_garage_2_0",
+        "description": "Garage version 2.  Maximum width, two lane size, three different lengths",
+        "om_terrains": [ "field" ]
+      },
+      {
+        "id": "faction_base_livestock_0",
+        "description": "Livestock Area version 1.  Layout with plenty of free space",
+        "om_terrains": [ "field" ]
+      },
+      {
+        "id": "faction_base_livestock_2_0",
+        "description": "Livestock Area version 2.  More stalls than version 1, less free space",
+        "om_terrains": [ "field" ]
+      },
+      { "id": "faction_base_saltworks_0", "description": "Saltworks Area", "om_terrains": [ "field" ] },
+      {
+        "id": "faction_base_storehouse_0",
+        "description": "Central Storage Building version 1.  Nice building with free space",
+        "om_terrains": [ "field" ]
+      },
+      {
+        "id": "faction_base_storehouse_2_0",
+        "description": "Central Storage Building version 2.  Focus on storage.  Place in N, E, S, W only",
+        "om_terrains": [ "field" ]
+      },
+      {
+        "id": "faction_base_workshop_0",
+        "description": "Fabrication Workshop version 1.  Nice workshop cottage",
+        "om_terrains": [ 
+                        "pedestrian_11_5_0",  
+                        "pedestrian_11_6_0", 
+                        "pedestrian_12_5_0", 
+                        "pedestrian_12_6_0", 
+                        "pedestrian_13_5_0", 
+                        "pedestrian_13_6_0", 
+                        "pedestrian_11_7_0",  
+                        "pedestrian_11_8_0", 
+                        "pedestrian_12_7_0", 
+                        "pedestrian_12_8_0", 
+                        "pedestrian_13_7_0", 
+                        "pedestrian_13_8_0",                         
+                        "pedestrian_12_9_0", 
+                        "pedestrian_13_9_0",
+                        "pedestrian_14_5_0", 
+                        "pedestrian_14_6_0",
+
+                        "railroad_station_0_1", 
+                        "railroad_station_1_1", 
+                        "railroad_station_2_1",
+                        "railroad_station_0_2", 
+                        "railroad_station_1_2", 
+                        "railroad_station_2_2",
+                        "railroad_station_0_3", 
+                        "railroad_station_1_3", 
+                        "railroad_station_2_3",
+                        "railroad_station_0_4", 
+                        "railroad_station_1_4", 
+                        "railroad_station_2_4",
+
+                        "island_field" 
+                       ]
+      },
+      {
+        "id": "faction_base_workshop_2_0",
+        "description": "Fabrication Workshop version 2.  More detailed recipe progression",
+        "om_terrains": [ 
+			"pedestrian_11_5_0",  
+                        "pedestrian_11_6_0", 
+                        "pedestrian_12_5_0", 
+                        "pedestrian_12_6_0", 
+                        "pedestrian_13_5_0", 
+                        "pedestrian_13_6_0", 
+                        "pedestrian_11_7_0",  
+                        "pedestrian_11_8_0", 
+                        "pedestrian_12_7_0", 
+                        "pedestrian_12_8_0", 
+                        "pedestrian_13_7_0", 
+                        "pedestrian_13_8_0",                         
+                        "pedestrian_12_9_0", 
+                        "pedestrian_13_9_0",
+                        "pedestrian_14_5_0", 
+                        "pedestrian_14_6_0",
+
+                        "railroad_station_0_1", 
+                        "railroad_station_1_1", 
+                        "railroad_station_2_1",
+                        "railroad_station_0_2", 
+                        "railroad_station_1_2", 
+                        "railroad_station_2_2",
+                        "railroad_station_0_3", 
+                        "railroad_station_1_3", 
+                        "railroad_station_2_3",
+                        "railroad_station_0_4", 
+                        "railroad_station_1_4", 
+                        "railroad_station_2_4",
+
+                        "island_field" 
+                       ]
+      }
+    ]
+  }
+]
