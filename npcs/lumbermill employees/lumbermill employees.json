@@ -17,7 +17,8 @@
     "attitude": 0,
     "mission": 7,
     "chat": "TALK_NPC_LUMBERMILL_MERCHANT",
-    "faction": "wasteland_scavengers"
+    "faction": "wasteland_scavengers",
+    "mission_offered": "MISSION_GET_DRIVEBELTS"
   },
 {
     "type": "npc",

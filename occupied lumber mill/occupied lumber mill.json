@@ -25,7 +25,7 @@
         "v  #x,=,,......x#0  _________ 2 * #ddX.Xdd#7   v",
         "v 2#x,=M,.C...0x# * _________     w.c....cw   *v",
         "v *#.,=,,.Cr..xx#   __________*   #########    v",
-        "v  #.,=P,!Rr..xx# 2 __________  *     *     *  V",
+        "v  #.,=P,.Rr..xx# 2 __________  *     *     *  V",
         "v  #x,=,,.Cr..x6#6 *__________  2############# v",
         "v *#x,=J,.C.....;________________#&.bb.bb.C.f# v",
         "v  #.,=,,.......;________________+..nn.nn.C.f#*v",
@@ -132,19 +132,17 @@
       ],
      "npcs": {
 		"0": { "class": "NPC_lumbermill_logger" },
-                "8": { "class": "NPC_lumbermill_merchant" },
-                "!": { "class": "NPC_lumbermill_broker" }
+                "8": { "class": "NPC_lumbermill_merchant" }
 		}
     }
   },
 {
     "type": "overmap_terrain",
     "id": [ "lumbermill_0_0_ocu", "lumbermill_0_1_ocu", "lumbermill_1_0_ocu", "lumbermill_1_1_ocu" ],
-    "copy-from": "generic_city_building",
     "name": "lumbermill",
     "sym": "L",
     "color": "i_green",
-    "extend": { "flags": [ "SOURCE_CONSTRUCTION", "SOURCE_FABRICATION" ] }
+    "flags": [ "SOURCE_CONSTRUCTION", "SOURCE_FABRICATION" ] 
   },
 {
     "type": "overmap_special",
@@ -174,7 +172,7 @@
     "locations": [ "forest" ],
     "city_distance": [ 5, 60 ],
     "city_sizes": [ 4, -1 ],
-    "occurrences": [ 0, 1 ],
+    "occurrences": [ 0, 2 ],
     "flags": [ "CLASSIC", "WILDERNESS" ]
   }
 ]

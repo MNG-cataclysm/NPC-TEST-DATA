@@ -1,0 +1,74 @@
+[
+{
+    "id": [
+      "TALK_FREE_MERCHANTS_MERCHANT_Talk"
+    ],
+    "type": "talk_topic",
+    "responses": [
+      { 
+        "text": "Are you interested in buying any processed lumber?", 
+        "topic": "TALK_EVAC_MERCHANT_DEAL_NEGOTIATE",          
+        "condition": { "u_has_mission": "MISSION_LUMBERMILL_SET_TRADE_ROUTE" }
+      },
+      { 
+        "text": "Does this center need any metal?", 
+        "topic": "TALK_EVAC_MERCHANT_DEAL_NEGOTIATE",  
+        "condition": { "u_has_mission": "MISSION_SCRAPPER_SET_TRADE_ROUTE" }
+      },
+      { 
+        "text": "Are you interested in any chemical supplies?", 
+        "topic": "TALK_EVAC_MERCHANT_DEAL_NEGOTIATE_CHEM",  
+        "condition": { "u_has_mission": "MISSION_CABIN_CHEMIST_SET_TRADE_ROUTE" }
+      }
+    ]
+  },
+{
+    "id": "TALK_EVAC_MERCHANT_DEAL_NEGOTIATE",
+    "type": "talk_topic",
+    "dynamic_line": [ "Sure, we could use some around here for repairs and whatnot. What are the terms?" ],
+    "responses": [ 
+                  { "text": "Well, how about 250 merch for 100 pounds of...", 
+                    "effect": { "u_spawn_item": "trade_writ" }, 
+                    "topic": "TALK_DONE" 
+                  }
+                 ]
+},
+{
+    "id": "TALK_EVAC_MERCHANT_DEAL_NEGOTIATE_CHEM",
+    "type": "talk_topic",
+    "dynamic_line": [ "Chemicals? I'm sure we could find some use for them, and we are in need of medical supplies. What's the offer?" ],
+    "responses": [ 
+                  { "text": "Well, how about 300 merch for 10 liters of...", 
+                    "effect": { "u_spawn_item": "trade_writ" }, 
+                    "topic": "TALK_DONE" 
+                  }  
+                 ]
+},
+
+
+
+{
+    "id": [
+      "TALK_BLACKSMITH_SERVICES"
+    ],
+    "type": "talk_topic",
+    "responses": [
+      { 
+        "text": "I heard you might want some metal...", 
+        "topic": "TALK_BLACKSMITH_DEAL_NEGOTIATE",  
+        "condition": { "u_has_mission": "MISSION_SCRAPPER_SET_TRADE_ROUTE_BLACKSMITH" }
+      }
+    ]
+  },
+{
+    "id": "TALK_BLACKSMITH_DEAL_NEGOTIATE",
+    "type": "talk_topic",
+    "dynamic_line": [ "Why sure honey, I'm always in need of more material! What's the price though?" ],
+    "responses": [ 
+                  { "text": "Well, how about 100 merch for every 70 pounds of metal...", 
+                    "effect": { "u_spawn_item": "trade_writ" }, 
+                    "topic": "TALK_DONE" 
+                  } 
+                 ]
+  } 
+]
